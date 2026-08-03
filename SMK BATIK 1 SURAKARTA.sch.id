@@ -1,1 +1,151 @@
 
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SISFO SMK BATIK 1 SURAKARTA</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+}
+
+header{
+    background:#0d6efd;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    background:#084298;
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    padding:10px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    margin-top:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+    margin-bottom:20px;
+}
+
+.dashboard{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.box{
+    background:#0d6efd;
+    color:white;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+}
+
+button{
+    margin-top:15px;
+    padding:10px 20px;
+    border:none;
+    background:#198754;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+footer{
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>SISFO SMK BATIK 1 SURAKARTA</h1>
+    <p>Sistem Informasi Akademik SMK BATIK 1 SURAKARTA</p>
+</header>
+
+<nav>
+    <a href="#">Beranda</a>
+    <a href="#">Jadwal</a>
+    <a href="#">Nilai</a>
+    <a href="#">Presensi</a>
+    <a href="#">PKL</a>
+    <a href="#">Pengumuman</a>
+</nav>
+
+<div class="container">
+
+<div class="dashboard">
+    <div class="box">
+        <h2>1.250</h2>
+        <p>Siswa</p>
+    </div>
+
+    <div class="box">
+        <h2>85</h2>
+        <p>Guru</p>
+    </div>
+
+    <div class="box">
+        <h2>42</h2>
+        <p>Kelas</p>
+    </div>
+
+    <div class="box">
+        <h2>98%</h2>
+        <p>Kehadiran Hari Ini</p>
+    </div>
+</div>
+
+<div class="card">
+    <h2>Pengumuman</h2>
+    <p>Selamat datang di Sistem Informasi Akademik SMK BATIK 1 SURAKARTA.</p>
+
+    <button onclick="info()">Lihat Info</button>
+</div>
+
+</div>
+
+<footer>
+© 2026 SMK BATIK 1 SURAKARTA
+</footer>
+
+<script>
+function info(){
+    alert("Selamat datang di SISFO SMK BATIK 1 SURAKARTA.");
+}
+</script>
+
+</body>
+</html>
